@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { openDB } from "idb";
-
+import "./App.css";
 const App = () => {
   const [loggedIn, setLoggedIn] = useState<boolean>(!!Cookies.get("user"));
   const [notes, setNotes] = useState<Array<{ content: string, timestamp: number }>>([]);
