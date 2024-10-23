@@ -108,7 +108,3 @@ Builds the app for production to the `dist` folder. It bundles React in producti
 
 ### `npm run preview`
 Serves the built project locally after running the build command.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
